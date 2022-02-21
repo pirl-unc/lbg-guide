@@ -22,6 +22,10 @@ ssh <your_onyen>@vm-login-2-0.bioinf.unc.edu
 
 LBG and Longleaf do not share a filesystem, so if you would like to access files from Longleaf you must use [scp](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/) to copy them between clusters. 
 
+### Backups
+
+Most storage areas on LBG have timed backups.  From a login node run `cd .snapshot` to see hourly and weekly snapshots.
+
 ## Cluster info
 
 To see which nodes are active on the cluster run:
