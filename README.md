@@ -29,3 +29,7 @@ To see which nodes are active on the cluster run:
 ```sh
 sinfo -N -o "%.15C %.10e %.10m %.10t %.30N" -p allnodes
 ```
+
+## Assistance 
+
+If you need help with something on the cluster send an email to [informaticshelp@unc.edu](mailto:informaticshelp@unc.edu)
