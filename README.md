@@ -36,4 +36,4 @@ sinfo -N -o "%.15C %.10e %.10m %.10t %.30N" -p allnodes
 
 ## Assistance 
 
-If you need help with something on the cluster send an email to [informaticshelp@unc.edu](mailto:informaticshelp@unc.edu)
+If you need help with something on the cluster send an email to [informaticshelp@unc.edu](mailto:informaticshelp@unc.edu), which will then reach [Lineberger Bioinformatic Core personnel](https://lbc.unc.edu/index.php/personnel) such as the director Sai Balu or infrastructure supervisor Feri Zsuppan. 
