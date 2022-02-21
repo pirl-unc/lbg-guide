@@ -18,6 +18,10 @@ If you want to maintain a tmux session and reconnect to it later, it is better t
 ssh <your_onyen>@vm-login-2-0.bioinf.unc.edu
 ```
 
+## Storage
+
+LBG and Longleaf do not share a filesystem, so if you would like to access files from Longleaf you must use [scp](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/) to copy them between clusters. 
+
 ## Cluster info
 
 To see which nodes are active on the cluster run:
