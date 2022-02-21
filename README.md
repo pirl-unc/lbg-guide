@@ -18,3 +18,10 @@ If you want to maintain a tmux session and reconnect to it later, it is better t
 ssh <your_onyen>@vm-login-2-0.bioinf.unc.edu
 ```
 
+## Cluster info
+
+To see which nodes are active on the cluster run:
+
+```sh
+sinfo -N -o "%.15C %.10e %.10m %.10t %.30N" -p allnodes
+```
