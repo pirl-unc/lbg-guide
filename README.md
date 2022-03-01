@@ -77,6 +77,17 @@ singularity exec --bind /datastore /datastore/nextgenout5/share/labs/Vincent_Lab
 ```sh
 sbatch /datastore/alldata/shiny-server/rstudio-common/<your_onyen>/dataset_prep/OSU_mHA_VL194/cluster_commands/mHA/SAMP1.sh
 ```
+### Installing programs
+
+Unlike other scientific computing clusters like Longleaf, LBG doesn't use the [environment modules](https://www.admin-magazine.com/HPC/Articles/Environment-Modules) to load programs. Instead, you should install conda: 
+
+```sh 
+cd ~/
+wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.11.0-Linux-x86_64.sh
+bash Miniconda3-py39_4.11.0-Linux-x86_64.sh
+```
+
+...and then try to work within a different [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for each project. 
 
 ## Storage
 
