@@ -95,7 +95,11 @@ LBG and Longleaf do not share a filesystem, so if you would like to access files
 
 ### Quota
 
-You are limited to 1 TB in your /home directory. You can check your current limit with `quota -s`. 
+You are limited to 1 TB in your /home directory. You can check your current limit with `quota -s`. You can see how much space is used by a lab directory like this: 
+
+```sh
+du -sHh  /datastore/lbcfs/labs/rubinsteyn_lab
+```
 
 ### Backups
 
