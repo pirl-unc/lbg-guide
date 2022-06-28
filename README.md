@@ -93,9 +93,14 @@ bash Miniconda3-py39_4.11.0-Linux-x86_64.sh
 
 LBG and Longleaf do not share a filesystem, so if you would like to access files from Longleaf you must use [scp](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/) to copy them between clusters. 
 
+
 ### Quota
 
-You are limited to 1 TB in your /home directory. You can check your current limit with `quota -s`. You can see how much space is used by a lab directory like this: 
+You are limited to 1 TB in your /home directory. You can check your current limit with `quota -s`. 
+
+### Usage
+
+You can see how much space is used by a lab directory like this: 
 
 ```sh
 du -sHh  /datastore/lbcfs/labs/rubinsteyn_lab
