@@ -110,6 +110,7 @@ du -sHh  /datastore/lbcfs/labs/rubinsteyn_lab
 
 Most storage areas on LBG have timed backups.  From a login node run `cd .snapshot` to see hourly and weekly snapshots.
 
+
 ## Cluster info
 
 ### Active nodes in different partitions
