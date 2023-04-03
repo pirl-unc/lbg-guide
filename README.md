@@ -2,7 +2,7 @@
 Basic usage tips for the LBG cluster at UNC-CH
 
 ## What is LBG?
-Scientific computing at UNC-CH happens mostly on the [Longleaf Cluster](https://its.unc.edu/research-computing/longleaf-cluster/). Additionally, the [Lineberger Cancer Center](https://unclineberger.org/) also has its own dedicated cluster called LBG, which is administered by the [Lineberger Bioinformatics Core](https://lbc.unc.edu/). This unofficial repository will hopefully serve as a basic guide for LCCC researchers to get started using LBG. 
+Scientific computing at UNC-CH happens mostly on the [Longleaf Cluster](https://its.unc.edu/research-computing/longleaf-cluster/). Additionally, the [Lineberger Cancer Center](https://unclineberger.org/) also has its own dedicated cluster called LBG, which is administered by the [Lineberger Bioinformatics Core](https://lbc.unc.edu/). This unofficial repository will hopefully serve as a basic guide for LCCC researchers to get started using LBG. There is additional information on the [LBG wiki](https://lbgwiki.bioinf.unc.edu/index.php?title=Main_Page). 
 
 ## Access
 
